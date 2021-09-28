@@ -1,0 +1,51 @@
+// -------------------------settings-----------------------
+
+@import "./utils/vars";
+@import "./base/reset";
+@import "./utils/hidden";
+@import "./base/container";
+
+// -------------------------header-------------------------
+
+@import "./layout/header";
+
+// -------------------------hero---------------------------
+
+@import "./layout/hero";
+@import "./components/center-btn";
+
+// -------------------------advantages---------------------
+
+@import "./layout/advantages";
+
+// -------------------------skills-------------------------
+
+@import "./layout/skills";
+
+// -------------------------team---------------------------
+
+@import "./layout/team";
+@import "./components/soc-icon";
+
+// -------------------------clients------------------------
+
+@import "./layout/clients";
+
+// -------------------------footer-------------------------
+
+@import "./layout/footer";
+@import "./layout/footer-centr";
+@import "./layout/footer-right";
+
+// -------------------------portfolio----------------------
+
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio";
+
+// -------------------------modal--------------------------
+
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/modal-btn-icon";
+@import "./components/modal-inf";
+@import "./components/modal-comment";

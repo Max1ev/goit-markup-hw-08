@@ -1,0 +1,22 @@
+.modal {
+  position: absolute;
+  width: 450px;
+  min-height: 580px;
+  background-color: #fff;
+  border-radius: 4px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  @media screen and (max-width: 479px) {
+    width: calc(100% - 2 * 15px);
+    top: 33%;
+  }
+  @media screen and (min-width: 768px) {
+    top: 45%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 530px;
+    top: 50%;
+  }
+}

@@ -1,0 +1,45 @@
+.our-skills {
+  background-color: var(--main-title-color);
+  padding-bottom: 95px;
+  & .skills-list__item {
+    position: relative;
+  }
+  & .skills-list__text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+  }
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.skills-list {
+  display: flex;
+  padding: 0;
+}
+
+.skills-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.skills-list__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  margin-bottom: 50px;
+}
