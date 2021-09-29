@@ -649,12 +649,13 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
   .team-list__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -776,12 +777,13 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
   .clients-list__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -846,6 +848,12 @@ button {
 
 .address {
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .address {
+    margin-bottom: -60px;
+  }
 }
 
 .footer-site-logo {
@@ -1050,7 +1058,7 @@ button {
 }
 
 .filter-list {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1083,9 +1091,14 @@ button {
   }
 }
 
-.filter-item {
+.filter-item:not(:last-child) {
   margin-right: 10px;
-  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .filter-item:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .filter-button {
@@ -1378,7 +1391,7 @@ button {
 
 .check-policy {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -1386,7 +1399,7 @@ button {
 
 .check-link {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
