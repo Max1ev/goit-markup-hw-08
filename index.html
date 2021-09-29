@@ -76,8 +76,24 @@
             <a class="mob-menu-list__link link" href="">Контакты</a>
           </li>
         </ul>
-        <a class="mob-menu__tel link" href="tel:+380961111111"> +38 096 111 11 11</a>
-        <a class="mob-menu__mail link" href="mailto:info@devstudio.com"> info@devstudio.com</a>
+        <div class="connect-menu">
+          <a class="mob-menu__tel link" href="tel:+380961111111"> +38 096 111 11 11</a>
+          <a class="mob-menu__mail link" href="mailto:info@devstudio.com"> info@devstudio.com</a>
+          <ul class="soc-menu-list list">
+            <li class="soc-menu-list__item">
+              <a class="soc-menu-list__link" href="">Instagram <span class="pun"> | </span></a>
+            </li>
+            <li class="soc-menu-list__item">
+              <a class="soc-menu-list__link" href="">Twitter <span class="pun"> | </span></a>
+            </li>
+            <li class="soc-menu-list__item">
+              <a class="soc-menu-list__link" href="">Facebook <span class="pun"> | </span></a>
+            </li>
+            <li class="soc-menu-list__item">
+              <a class="soc-menu-list__link" href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!----------------Oсновной контент---------->
@@ -148,12 +164,27 @@
           <h2 class="skills-list__title">Чем мы занимаемся</h2>
           <ul class="skills-list list">
             <li class="skills-list__item">
-              <img src="./images/about/about-img-1.jpg" alt="Пишем код" width="370" height="294" />
+              <img
+                srcset="
+                  ./images/about/desk-app.jpg  1x,
+                  ./images/about/desk-app2.jpg 2x,
+                  ./images/about/desk-app3.jpg 3x
+                "
+                src="./images/about/desk-app.jpg"
+                alt="Пишем код"
+                width="370"
+                height="294"
+              />
               <h3 class="skills-list__text">Десктопные приложения</h3>
             </li>
             <li class="skills-list__item">
               <img
-                src="./images/about/about-img-2.jpg"
+                srcset="
+                  ./images/about/mobile-version.jpg  1x,
+                  ./images/about/mobile-version2.jpg 2x,
+                  ./images/about/mobile-version3.jpg 3x
+                "
+                src="./images/about/mobile-version.jpg"
                 alt="Делаем для телефона"
                 width="370"
                 height="294"
@@ -162,7 +193,12 @@
             </li>
             <li class="skills-list__item">
               <img
-                src="./images/about/about-img-3.jpg"
+                srcset="
+                  ./images/about/designer-color.jpg  1x,
+                  ./images/about/designer-color2.jpg 2x,
+                  ./images/about/designer-color3.jpg 3x
+                "
+                src="./images/about/designer-color.jpg"
                 alt="Колористика"
                 width="370"
                 height="294"
@@ -179,7 +215,12 @@
           <ul class="team-list list">
             <li class="team-list__item">
               <img
-                src="./images/team/p-designer-img-1.jpg"
+                srcset="
+                  ./images/team/p-designer.jpg  1x,
+                  ./images/team/p-designer2.jpg 2x,
+                  ./images/team/p-designer3.jpg 3x
+                "
+                src="./images/team/p-designer.jpg"
                 alt="Фото сотрудника"
                 width="270"
                 height="260"
@@ -219,7 +260,12 @@
             </li>
             <li class="team-list__item">
               <img
-                src="./images/team/front-img-2.jpg"
+                srcset="
+                  ./images/team/front.jpg  1x,
+                  ./images/team/front2.jpg 2x,
+                  ./images/team/front3.jpg 3x
+                "
+                src="./images/team/front.jpg"
                 alt="Фото сотрудника"
                 width="270"
                 height="260"
@@ -259,7 +305,12 @@
             </li>
             <li class="team-list__item">
               <img
-                src="./images/team/m.marketing-img-3.jpg"
+                srcset="
+                  ./images/team/m.marketing.jpg  1x,
+                  ./images/team/m.marketing2.jpg 2x,
+                  ./images/team/m.marketing3.jpg 3x
+                "
+                src="./images/team/m.marketing.jpg"
                 alt="Фото сотрудника"
                 width="270"
                 height="260"
@@ -299,7 +350,12 @@
             </li>
             <li class="team-list__item">
               <img
-                src="./images/team/ui-designer-img-4.jpg"
+                srcset="
+                  ./images/team/ui-designer.jpg  1x,
+                  ./images/team/ui-designer2.jpg 2x,
+                  ./images/team/ui-designer3.jpg 3x
+                "
+                src="./images/team/ui-designer.jpg"
                 alt="Фото сотрудника"
                 width="270"
                 height="260"
